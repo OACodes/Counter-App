@@ -39,19 +39,18 @@ This project demonstrates basic React state management and event handling with t
 ---
 
 ## 📂 Project Structure
-counter-app/
-├── public/
-├── src/
-│ ├── components/
-│ │ └── Counter.jsx
-│ ├── App.jsx
-│ ├── App.css
-│ ├── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-
+counter-app/.
+├── public/.
+├── src/.
+│ ├── components/.
+│ │ └── Counter.jsx.
+│ ├── App.jsx.
+│ ├── App.css.
+│ ├── main.jsx.
+├── index.html.
+├── package.json.
+├── vite.config.js.
+└── README.md.
 
 ---
 
@@ -67,31 +66,28 @@ Make sure you have **Node.js (v18 or later)** and **npm** installed.
    cd counter-app
 
 
-Install dependencies
+2. **Install dependencies**
+   ```bash
+   npm install
 
-npm install
+3. **Run the development server**
+   ```bash
+   npm run dev
 
-
-Run the development server
-
-npm run dev
-
-
-Open in your browser
+4. **Open in your browser**
 Visit the URL shown in your terminal (usually http://localhost:5173).
 
 ---
 
 ## 🌐 Building for Production
 
-To create an optimized production build:
+1. **To create an optimized production build:**
+   ```bash
+   npm run build
 
-npm run build
-
-
-Then preview it locally:
-
-npm run preview
+2. **Then preview it locally:**
+   ```bash
+   npm run preview
 
 ---
 
@@ -107,14 +103,21 @@ Update Counter.jsx to add additional buttons or features (like setting a custom 
 
 Contributions are welcome!
 
-Fork the repo
+### Steps
+1. **Fork the repo**
 
-Create a new branch (git checkout -b feature-name)
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature-name
 
-Commit your changes (git commit -m "Added new feature")
+3. **Commit your changes**
+   ```bash
+   git commit -m "Added new feature"
 
-Push to your branch (git push origin feature-name)
+4. **Push to your branch**
+   ```bash
+   git push origin feature-name
 
-Open a Pull Request
+5. **Open a Pull Request**
 
 ---
