@@ -1,16 +1,123 @@
-# React + Vite
+# 🧮 Simple Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Counter Application** built using **React** and **Vite**.  
+This project demonstrates basic React state management and event handling with three main functions: **Increase**, **Decrease**, and **Reset**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Table of Contents
+- [Demo](#-demo)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Customization](#-customization)
+- [Contributing](#-contributing)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Demo
+*(Instructions below show how to run it locally before it’s public.)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🔼 **Increase** the counter value  
+- 🔽 **Decrease** the counter value  
+- 🔁 **Reset** the counter to zero  
+- 🎨 Styled using **CSS** for a clean and modern look  
+- ⚡ Built with **Vite** for fast development and optimized builds  
+
+---
+
+## 🧰 Tech Stack
+- **React** – Front-end library for building UI  
+- **Vite** – Next-generation front-end tooling  
+- **CSS** – Styling and layout  
+
+---
+
+## 📂 Project Structure
+counter-app/.
+├── public/.
+├── src/.
+│ ├── components/.
+│ │ └── Counter.jsx.
+│ ├── App.jsx.
+│ ├── App.css.
+│ ├── main.jsx.
+├── index.html.
+├── package.json.
+├── vite.config.js.
+└── README.md.
+
+---
+
+## ⚙️ Installation
+
+### Prerequisites
+Make sure you have **Node.js (v18 or later)** and **npm** installed.
+
+### Steps
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/counter-app.git
+   cd counter-app
+
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+
+4. **Open in your browser**
+Visit the URL shown in your terminal (usually http://localhost:5173).
+
+---
+
+## 🌐 Building for Production
+
+1. **To create an optimized production build:**
+   ```bash
+   npm run build
+
+2. **Then preview it locally:**
+   ```bash
+   npm run preview
+
+---
+
+## 🎨 Customization
+
+Modify App.css to change colors, fonts, and layout.
+
+Update Counter.jsx to add additional buttons or features (like setting a custom step value).
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+### Steps
+1. **Fork the repo**
+
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature-name
+
+3. **Commit your changes**
+   ```bash
+   git commit -m "Added new feature"
+
+4. **Push to your branch**
+   ```bash
+   git push origin feature-name
+
+5. **Open a Pull Request**
+
+---
