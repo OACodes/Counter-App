@@ -1,15 +1,22 @@
-# Treat source files as real code (not generated)
-src/* linguist-generated=false
 
-# Detect JavaScript + JSX
-*.js linguist-detectable=true
+# Force GitHub to detect JSX/JS
 *.jsx linguist-detectable=true
-
+*.js linguist-detectable=true
 # Detect HTML & CSS
 *.html linguist-detectable=true
 *.css linguist-detectable=true
 
-# Ignore build artifacts and dependencies.
-dist/* linguist-generated
-build/* linguist-generated
-node_modules/* linguist-vendored
+
+# Make sure all source files count
+src/** linguist-generated=false
+
+# Detect HTML and CSS
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+
+# Ignore built/generated/third-party code
+dist/** linguist-generated=true
+node_modules/** linguist-vendored=true
+
+# As a backup: nothing in src is generated
+src/* linguist-generated=false
